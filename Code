@@ -5,6 +5,11 @@ class Rectangle
     private double width;
     private double height;
 
+ static Rectangle()
+    {
+        Console.WriteLine("Класс Rectangle загружен.");
+    }
+
     public Rectangle()
     {
         width = 1.0;
